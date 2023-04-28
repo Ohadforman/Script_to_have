@@ -130,7 +130,7 @@ for source_dir in source_dirs:
            
 
 # Create the README.txt file
-with open('/Users/ohadformanair/Documents/My_apps/README.txt', 'w') as f:
+with open('/Users/ohadformanair/Documents/Scripts/My_Apps/README.txt', 'w') as f:
 
     # Print the format for university files
     f.write('Format for university files:\n')

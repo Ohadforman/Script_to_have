@@ -15,19 +15,19 @@ class CreateDirApp(App):
 
         # Text input for path
         path_label = Label(text="Enter the path where the directory will be created:")
-        self.path_input = TextInput(text="/", multiline=False)
+        self.path_input = TextInput(text="", multiline=False)
         layout.add_widget(path_label)
         layout.add_widget(self.path_input)
 
         # Text input for main folder name
         main_label = Label(text="Enter the name of the main folder:")
-        self.main_input = TextInput(text="Main Folder", multiline=False)
+        self.main_input = TextInput(text="", multiline=False)
         layout.add_widget(main_label)
         layout.add_widget(self.main_input)
 
         # Text input for sub-folder name
         sub_label = Label(text="Enter the name of a sub-folder:")
-        self.sub_input = TextInput(text="Sub-folder", multiline=False)
+        self.sub_input = TextInput(text="", multiline=False)
         layout.add_widget(sub_label)
         layout.add_widget(self.sub_input)
 

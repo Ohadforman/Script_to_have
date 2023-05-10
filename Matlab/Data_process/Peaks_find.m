@@ -49,7 +49,7 @@ while true
 end
 
 peak_table = table(x_peaks, y_peaks, 'VariableNames', {'x coor peak','y coor peak'});
-peak_table = sortrows(peak_table, 'x')
+peak_table = sortrows(peak_table, 'x coor peak')
 % Ask the user if they want to save the plot
 response = input('Do you want to save the plot? [y/n]: ', 's');
 if strcmpi(response, 'y')
